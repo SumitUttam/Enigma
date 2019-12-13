@@ -8,9 +8,9 @@ class Ui_EnigmaUI(object):
     def setupUi(self, EnigmaUI):
         EnigmaUI.setObjectName("EnigmaUI")
         EnigmaUI.setEnabled(True)
-        EnigmaUI.resize(640, 480)
+        EnigmaUI.resize(640, 489)
         self.tabWidget = QtWidgets.QTabWidget(EnigmaUI)
-        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 651, 481))
+        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 651, 490))
         self.tabWidget.setObjectName("tabWidget")
         self.MainWindow = QtWidgets.QWidget()
         self.MainWindow.setObjectName("MainWindow")
